@@ -1,0 +1,96 @@
+.navbar {
+  background-color: var(--nav-colors);
+  min-height: 85px;
+  margin-bottom: 70px;
+}
+
+.homeHeader {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+  min-height: 85px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.formSearch {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.formSearchBar {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.formSearchBar input {
+  height: 40px;
+  border: 1px #fff;
+  border-radius: 3px;
+  padding-left: 12px;
+  outline: none;
+  flex: 9;
+}
+
+.formSearchBar button {
+  background-color: #333;
+  box-shadow: none;
+  border: 0;
+  padding: 0 35px;
+  color: white;
+  height: 40px;
+  flex: 1;
+}
+
+.helpline {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoTotal {
+  position: absolute;
+  top: -10px;
+  left: 12px;
+  text-align: center;
+  background: #fff;
+  height: 18px;
+  width: 18px;
+  line-height: 18px;
+  border-radius: 50%;
+  font-size: 11px;
+}
+
+@media screen and (max-width: 959px) {
+  .navbar {
+    min-height: 300px;
+  }
+
+  .homeHeader {
+    min-height: 300px;
+    flex-direction: column;
+  }
+
+  .logo {
+    flex: 1;
+    padding-top: 50px;
+  }
+  .formSearch {
+    width: 100%;
+    flex: 1;
+    display: flex;
+  }
+
+  .helpline {
+    margin-left: 0px;
+    flex: 1;
+    margin-right: 30px;
+    display: flex;
+  }
+}

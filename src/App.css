@@ -1,0 +1,26 @@
+:root {
+  --nav-colors: #ffc111;
+}
+
+.error-message {
+  font-size: 12px;
+  text-align: center;
+  color: var(--nav-colors);
+  max-width: 200px;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+.paginationRow {
+  margin-top: 20px;
+  padding: 20px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.MuiPaginationItem-page.Mui-selected {
+  background-color: var(--nav-colors) !important;
+}
